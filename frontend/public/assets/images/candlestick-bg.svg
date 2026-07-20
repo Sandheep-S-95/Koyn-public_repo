@@ -1,0 +1,189 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Emerald Line Glow -->
+    <filter id="emerald-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="15" result="blur2" />
+      <feGaussianBlur stdDeviation="30" result="blur3" />
+      <feMerge>
+        <feMergeNode in="blur3" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <!-- Gold Line Glow -->
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur1" />
+      <feGaussianBlur stdDeviation="12" result="blur2" />
+      <feGaussianBlur stdDeviation="24" result="blur3" />
+      <feMerge>
+        <feMergeNode in="blur3" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Emerald Candle Glow -->
+    <filter id="emerald-candle-glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Gold Candle Glow -->
+    <filter id="gold-candle-glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- BACKGROUND CANDLES -->
+  <g opacity="0.85">
+    
+    <!-- EMERALD CANDLES (Bullish) -->
+    <g stroke="#32E07E" fill="#32E07E" filter="url(#emerald-candle-glow)">
+      <!-- Far Left / Yellow Line context -->
+      <line x1="80" y1="750" x2="80" y2="870" stroke-width="2" />
+      <rect x="76" y="770" width="8" height="80" rx="2" />
+      
+      <line x1="280" y1="680" x2="280" y2="800" stroke-width="2" />
+      <rect x="276" y="710" width="8" height="60" rx="2" />
+
+      <!-- True Top Left -->
+      <line x1="200" y1="100" x2="200" y2="220" stroke-width="2" />
+      <rect x="196" y="120" width="8" height="80" rx="2" />
+
+      <!-- Left side group -->
+      <line x1="150" y1="700" x2="150" y2="850" stroke-width="2" />
+      <rect x="146" y="730" width="8" height="80" rx="2" />
+      
+      <line x1="220" y1="650" x2="220" y2="780" stroke-width="2" />
+      <rect x="216" y="660" width="8" height="60" rx="2" />
+
+      <!-- Center left group -->
+      <line x1="380" y1="520" x2="380" y2="650" stroke-width="2" />
+      <rect x="376" y="550" width="8" height="70" rx="2" />
+      
+      <line x1="450" y1="480" x2="450" y2="620" stroke-width="2" />
+      <rect x="446" y="500" width="8" height="90" rx="2" />
+
+      <!-- Center right group -->
+      <line x1="850" y1="350" x2="850" y2="550" stroke-width="2" />
+      <rect x="846" y="380" width="8" height="120" rx="2" />
+      
+      <line x1="920" y1="280" x2="920" y2="420" stroke-width="2" />
+      <rect x="916" y="320" width="8" height="70" rx="2" />
+
+      <!-- Right side group -->
+      <line x1="1350" y1="200" x2="1350" y2="350" stroke-width="2" />
+      <rect x="1346" y="240" width="8" height="80" rx="2" />
+      
+      <line x1="1500" y1="150" x2="1500" y2="280" stroke-width="2" />
+      <rect x="1496" y="170" width="8" height="70" rx="2" />
+      
+      <line x1="1750" y1="100" x2="1750" y2="250" stroke-width="2" />
+      <rect x="1746" y="130" width="8" height="90" rx="2" />
+
+      <!-- Extra Top Right Emerald Candles -->
+      <line x1="1600" y1="80" x2="1600" y2="190" stroke-width="2" />
+      <rect x="1596" y="100" width="8" height="60" rx="2" />
+
+      <line x1="1850" y1="40" x2="1850" y2="160" stroke-width="2" />
+      <rect x="1846" y="60" width="8" height="70" rx="2" />
+
+      <line x1="1680" y1="120" x2="1680" y2="220" stroke-width="2" />
+      <rect x="1676" y="140" width="8" height="50" rx="2" />
+    </g>
+
+    <!-- GOLD CANDLES -->
+    <g stroke="#EAB308" filter="url(#gold-candle-glow)">
+      <!-- Far Left / Yellow Line context -->
+      <line x1="50" y1="780" x2="50" y2="890" stroke-width="2" />
+      <rect x="46" y="800" width="8" height="60" rx="2" fill="#EAB308" />
+
+      <line x1="100" y1="760" x2="100" y2="880" stroke-width="2" />
+      <rect x="96" y="790" width="8" height="50" rx="2" fill="#0D1F1E" stroke-width="2" />
+
+      <line x1="250" y1="720" x2="250" y2="840" stroke-width="2" />
+      <rect x="246" y="740" width="8" height="70" rx="2" fill="#EAB308" />
+
+      <!-- True Top Left -->
+      <line x1="120" y1="150" x2="120" y2="280" stroke-width="2" />
+      <rect x="116" y="180" width="8" height="60" rx="2" fill="#EAB308" />
+
+      <!-- Left side -->
+      <line x1="185" y1="720" x2="185" y2="860" stroke-width="2" />
+      <rect x="181" y="740" width="8" height="100" rx="2" fill="#0D1F1E" stroke-width="2" />
+      
+      <line x1="310" y1="580" x2="310" y2="700" stroke-width="2" />
+      <rect x="306" y="620" width="8" height="60" rx="2" fill="#EAB308" />
+      
+      <!-- Center -->
+      <line x1="580" y1="620" x2="580" y2="780" stroke-width="2" />
+      <rect x="576" y="650" width="8" height="90" rx="2" fill="#0D1F1E" stroke-width="2" />
+      
+      <line x1="720" y1="480" x2="720" y2="600" stroke-width="2" />
+      <rect x="716" y="520" width="8" height="50" rx="2" fill="#EAB308" />
+      
+      <line x1="1050" y1="420" x2="1050" y2="550" stroke-width="2" />
+      <rect x="1046" y="440" width="8" height="80" rx="2" fill="#0D1F1E" stroke-width="2" />
+      
+      <!-- Right side -->
+      <line x1="1220" y1="310" x2="1220" y2="450" stroke-width="2" />
+      <rect x="1216" y="340" width="8" height="70" rx="2" fill="#EAB308" />
+      
+      <line x1="1620" y1="180" x2="1620" y2="300" stroke-width="2" />
+      <rect x="1616" y="220" width="8" height="60" rx="2" fill="#0D1F1E" stroke-width="2" />
+
+      <!-- Extra Top Right Gold Candles -->
+      <line x1="1550" y1="100" x2="1550" y2="240" stroke-width="2" />
+      <rect x="1546" y="130" width="8" height="80" rx="2" fill="#0D1F1E" stroke-width="2" />
+
+      <line x1="1720" y1="70" x2="1720" y2="210" stroke-width="2" />
+      <rect x="1716" y="110" width="8" height="60" rx="2" fill="#EAB308" />
+
+      <line x1="1800" y1="30" x2="1800" y2="130" stroke-width="2" />
+      <rect x="1796" y="50" width="8" height="50" rx="2" fill="#EAB308" />
+
+      <line x1="1400" y1="200" x2="1400" y2="320" stroke-width="2" />
+      <rect x="1396" y="230" width="8" height="60" rx="2" fill="#0D1F1E" stroke-width="2" />
+    </g>
+  </g>
+
+  <!-- GOLD MOVING AVERAGE LINE -->
+  <path 
+    d="M-100,850 C150,830 250,750 400,780 C550,810 650,720 800,680 C950,640 1050,700 1200,600 C1350,500 1450,520 1600,450 C1750,380 1850,280 2000,250" 
+    stroke="#EAB308" 
+    stroke-width="3" 
+    fill="none" 
+    opacity="0.9"
+    filter="url(#gold-glow)" 
+  />
+
+  <!-- EMERALD MOVING AVERAGE LINE -->
+  <path 
+    d="M-100,780 C100,700 300,550 500,600 C700,650 750,450 1000,400 C1250,350 1350,450 1500,300 C1650,150 1850,100 2000,50" 
+    stroke="#32E07E" 
+    stroke-width="4.5" 
+    fill="none" 
+    opacity="1"
+    filter="url(#emerald-glow)" 
+  />
+
+  <!-- EDGE FADE OVERLAY TO BLEND SEAMLESSLY INTO BACKGROUND CSS -->
+  <rect width="1920" height="1080" fill="url(#fade-edges)" pointer-events="none" />
+  <defs>
+    <radialGradient id="fade-edges" cx="50%" cy="50%" r="50%">
+      <stop offset="35%" stop-color="#0A1918" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0A1918" stop-opacity="0.9" />
+    </radialGradient>
+  </defs>
+</svg>
